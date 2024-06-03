@@ -1,1 +1,173 @@
+/* General */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    scroll-behavior: smooth;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 10px;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+li a {
+    text-decoration: underline;
+    color: seashell;
+    padding: 12px;
+    margin-left: 10px;
+}
+
+/* Main */
+
+main {
+    opacity: 0.9;
+}
+
+/* Our Mission section */
+
+#mission {
+    margin: 0 auto 50px;
+    height: 700px;
+    max-width: 1200px;
+    background-image: url(/images/img-mission-background.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.mission-container {
+    margin-top: -60px;
+    height: 40px;
+    max-width: 1200px;
+}
+
+.mission-container>h2,
+.mission-container>h4 {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Tea of the Month section */
+
+#featured-tea {
+    margin: 0 auto 50px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tea-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tea-container h2,
+.tea-container h4 {
+    margin: 20px;
+}
+
+.tea-container img {
+    height: 200px;
+    width: 300px;
+    margin: 25px 15px 10px;
+}
+
+.tea-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Locations section */
+
+#locations {
+    min-height: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: url(/images/img-locations-background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.loc-card {
+    background-color: black;
+    width: 300px;
+    height: 280px;
+    margin: 15px 40px;
+    opacity: 1;
+}
+
+.loc-card h3,
+.loc-card p {
+    margin-top: 30px;
+}
+
+/* Footer */
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h2 {
+    margin: 10px;
+}
+
+.contact h5 {
+    margin: 15px auto 10px;
+}
+
+.copyright {
+    float: left;
+    margin: 20px;
+}
